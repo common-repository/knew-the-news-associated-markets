@@ -1,0 +1,117 @@
+#associatedentries {
+	width: 100%;
+}
+#associatedentries th {
+	text-align: left;
+}
+
+#nomarketshint {
+	padding: 12px;
+	text-align: center;
+}
+
+#associatedentries .label  {
+	width: 100%;
+}
+
+.ui-dialog-titlebar-close {
+	display: none;	
+}
+
+#ui-dialog-title-knewthenewsmarketwidget_selectdialog h3,
+#ui-dialog-title-knewthenewsmarketwidget_createdialog h3 {
+	margin: 6px;
+}
+
+#knewthenewsmarketwidget_selectdialog,
+#knewthenewsmarketwidget_createdialog {
+	padding: 6px;
+}
+
+.ui-dialog-buttonpane {
+	padding: 6px;
+}
+
+#searchresult {
+	height: 140px;
+	overflow-y: scroll;
+}
+
+#marketcreationwizardform h5 {
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#marketcreationwizardform p {
+	line-height: 1.5em;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+.validationerror {
+	border: 1px solid maroon;
+}
+label.validationerror {
+	color: maroon;
+	line-height: 1em;
+	font-size: 0.8em;
+	border: 0px solid maroon;
+	float: left;
+}
+
+.marketcreationsteps {
+	height: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+.marketcreationsteps h3 {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;	
+}
+
+.marketcreationprogress {
+	display: inline;
+}
+.marketcreationprogress li {
+	height: 11px;
+	width: 20px;
+	float: left;
+	display: inline;
+	list-style: none;	
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.marketcreationprogress li.active {
+	background-color: #CCCCCC;
+}
+.marketcreationprogress li:first-child {
+	border-left: 1px solid black;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.marketcreationprogress li:last-child {
+	border-right: 1px solid black;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.ktndialog {
+	border: 1px solid #DDDDDD;
+	box-shadow: 0px 0px 20px #333333;	
+	background: white;
+}
+
+.ktndialog .ui-dialog-titlebar {
+	padding: 10px;
+	border-bottom: 1px solid #DDDDDD;
+	font-weight: bold;
+}
